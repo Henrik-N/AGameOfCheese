@@ -13,7 +13,7 @@ class RATSIMULATOR_API IRStateInterface
 {
 	GENERATED_BODY()
 public:
-	/// ENABLE
+	/// Enable
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "State")
 	void OnEnableState();
 	
